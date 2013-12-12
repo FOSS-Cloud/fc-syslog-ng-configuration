@@ -18,7 +18,11 @@ dbus.log        kernel.log  ntpd.log            postfix.log
 Simply clone the Git repository and let <code>/etc/syslog-ng</code> point to the root of your cloned repository:
 
 ```bash
+<<<<<<< HEAD
+git clone https://github.com/stepping-stone/syslog-ng.git ~/repos/syslog-ng
+=======
 git clone https://github.com/foss-cloud/syslog-ng.git ~/repos/syslog-ng
+>>>>>>> dcd0b5ab39fdf0bdb601cb53360ebe6f176d50fd
 mv /etc/syslog-ng /etc/syslog-ng.orig
 ln -s ~/repos/syslog-ng /etc/syslog-ng
 /etc/init.d/syslog-ng restart
