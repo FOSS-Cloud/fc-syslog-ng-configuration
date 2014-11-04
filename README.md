@@ -37,7 +37,7 @@ Contributions are very welcome, simply fork our repository and send us a pull-re
 There are so many daemons out there, that we can't add all by ourself :) If you're using a software for which no configuration exists (your log messages are appended to <code>/var/log/messages</code>), proceed with the following basic steps to create and submit a new configuration:
 
 1. Fork our repository on GitHub
-2. Create the required configuration files: 
+2. Create the required configuration files:
 
 
 ```bash
