@@ -31,7 +31,7 @@ ln -s ~/repos/syslog-ng /etc/syslog-ng
 If you're looking for a more enterprisish way to install the configuration, check out the [puppet-syslogng](https://github.com/purplehazech/puppet-syslogng) module, which is based on this configuration. Alternatively, you can also find an [ebuild](https://github.com/stepping-stone/portage-overlay/tree/master/sys-apps/sst-syslog-ng-configuration) for installing the configuration.
 
 # Contribution
-Contributions are very welcome, simply fork our repository and send us a pull-request. If you found a bug, open an issue.
+Contributions are very welcome, simply fork our repository and send us a pull-request. If you found a bug, open an issue. 
 
 ## Missing daemon or service configuration
 There are so many daemons out there, that we can't add all by ourself :) If you're using a software for which no configuration exists (your log messages are appended to <code>/var/log/messages</code>), proceed with the following basic steps to create and submit a new configuration:
